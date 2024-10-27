@@ -1,0 +1,59 @@
+/* General styling for form container */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+    /* Style for each form element group */
+    form div {
+        margin-bottom: 15px;
+    }
+
+/* Style for labels */
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Style for input fields and select */
+input[type="number"],
+select {
+    width: 100%;
+    padding: 8px;
+    font-size: 1em;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+/* Style for buttons */
+button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+    /* Hover effect for button */
+    button:hover {
+        background-color: #0056b3;
+    }
+
+/* Style for result section */
+h3 {
+    margin-top: 20px;
+    color: #333;
+}
+
+p {
+    font-size: 1.2em;
+    font-weight: bold;
+}

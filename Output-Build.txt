@@ -1,0 +1,6 @@
+﻿Build started at 8:33 PM...
+1>------ Build started: Project: CarCalc, Configuration: Debug Any CPU ------
+1>Skipping analyzers to speed up the build. You can execute 'Build' or 'Rebuild' command to run analyzers.
+1>CarCalc -> C:\Users\Clownkin\source\repos\CarCalc\CarCalc\bin\Debug\net8.0\CarCalc.dll
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+========== Build completed at 8:33 PM and took 00.697 seconds ==========

@@ -1,0 +1,35 @@
+﻿@model CarCalc.Models.CalculatorModel
+
+<h2>Car Cost Calculator</h2>
+
+<form asp-action="Calculate" method="post">
+    <div>
+        <label>Cost of Car:</label>
+        <input asp-for="Cost" type="number" placeholder="Enter cost" required />
+    </div>
+    <div>
+        <label>Tax Rate (%):</label>
+        <input asp-for="TaxRate" type="number" placeholder="Enter tax rate" required />
+    </div>
+    <div>
+        <label>Tag Info:</label>
+        <select asp-for="TagFee">
+            <option value="375">New ($375)</option>
+            <option value="85">Transfer ($85)</option>
+            <option value="113">Transfer and Renewal ($113)</option>
+            <option value="158">Transfer, Renewal, and Replacement ($158)</option>
+        </select>
+    </div>
+    <div>
+        <button type="submit">Calculate</button>
+    </div>
+</form>
+
+@if (Model != null)
+{
+    <div>
+        <h3>Total Cost:</h3>
+        <p>@Model.TotalCost</p>
+    </div>
+}
+
